@@ -1,0 +1,16 @@
+version: "3.1"
+services:
+  rss-generator:
+    build: .
+    environment:
+      AWS_REGION : ${AWS_REGION}
+      AWS_ID : ${AWS_ID}
+      AWS_SECRET : ${AWS_SECRET}
+      AWS_BUCKET_NAME : ${AWS_BUCKET_NAME}
+      AWS_VERSION : ${AWS_VERSION}
+      SLACK : ${SLACK}
+      SPREADSHEET : ${SPREADSHEET}
+      CRON_GENERATE : ${CRON_GENERATE}
+      CRON_STATUS : ${CRON_STATUS}
+      DEBUG : ${DEBUG}
+      STAGE : ${STAGE}
