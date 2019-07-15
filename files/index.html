@@ -53,64 +53,33 @@
         <br>
         <br>
         <script>
-            function send_to_buffer() {
-                console.log("triggered")
-                var result = ""
-
-                var xhr = new XMLHttpRequest()
-                var url = "https://maker.ifttt.com/trigger/rss-generator/with/key/d8SxRpgvEWKyEmYGBhxzZK"
-                xhr.open( "POST", url, true )
-                xhr.setRequestHeader( "Content-Type", "application/json" )
-                xhr.setRequestHeader('Access-Control-Allow-Headers', '*');
-                xhr.onreadystatechange = function () {
-                    if ( xhr.readyState === 4 && xhr.status === 200 ) {
-                        var json = JSON.parse( xhr.responseText )
-                        console.log( json.email + ", " + json.password )
+            function query_parse( url ) {
+                if(!url) url = location.search
+                var query = url.substr( 1 )
+                var result = {}
+                query.split( '&' ).forEach( function( part ) {
+                        var item = part.split( '=' )
+                        result[ item[0] ] = decodeURIComponent( item[1] )
                     }
-                }
-
-                params = { 
-                    "value1" : "dede", 
-                    "value2" : "de", 
-                    "value3" : "de"
-                }
-
-                var data = JSON.stringify( params )
-                xhr.send(data)
-
-                return result
-            }
-
-
-            function query_parse(url) {
-                if(!url) url = location.search;
-                var query = url.substr(1);
-                var result = {};
-                query.split("&").forEach(function(part) {
-                var item = part.split("=");
-                result[item[0]] = decodeURIComponent(item[1]);
-                });
+                );
                 return result;
             }
 
             function video_insert( url ) {
-                var ifrm = document.createElement("iframe");
-                ifrm.setAttribute("src", url + "?autoplay=1&rel=0&modestbranding=1");
-                ifrm.setAttribute("allowfullscreen", "");
-                ifrm.setAttribute("frameBorder", 0);
-                ifrm.setAttribute("background-color", "#2E2E2E");
-                document.getElementById("video").appendChild(ifrm);
+                var ifrm = document.createElement( 'iframe' )
+                ifrm.setAttribute( 'src', url + '?autoplay=1&rel=0&modestbranding=1')
+                ifrm.setAttribute( 'allowfullscreen', '' )
+                ifrm.setAttribute( 'frameBorder', 0 )
+                ifrm.setAttribute( 'background-color', '#2E2E2E' )
+                document.getElementById( 'video' ).appendChild( ifrm )
             }
 
             function string_titleize(str) {
-                var splitStr = str.toLowerCase().split(' ');
-                for (var i = 0; i < splitStr.length; i++) {
-                    // You do not need to check if i is larger than splitStr length, as your for does that for you
-                    // Assign it back to the array
-                    splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+                var splitStr = str.toLowerCase().split( ' ' )
+                for ( var i = 0; i < splitStr.length; i++ ) {
+                    splitStr[i] = splitStr[i].charAt( 0 ).toUpperCase() + splitStr[ i ].substring( 1 )
                 }
-                // Directly return the joined string
-                return splitStr.join(' '); 
+                return splitStr.join( ' ' )
             }
 
             hash = {
@@ -134,30 +103,60 @@
             hash['url']['video'] = 'https://www.youtube.com/watch?v=' + hash['query']['video_id']
             hash['url']['channel'] = 'https://www.youtube.com/channel/' + hash['query']['channel_id']
 
-            hash['title'] = decodeURI(hash['query']["title"]).replace( /\+/g, ' ' ).split(" | ")[1]
+            hash['query']['title'] = hash['query']['title'].split( '%' ).join( '%25' )
+            hash['title'] = decodeURI( hash['query']['title'] ).replace( /\+/g, ' ' )
 
-            hash['name'] = decodeURI(hash['query']["title"]).replace( /\+/g, ' ' ).split(" | ")[0]
+            a = hash['title'].split( '|' )
+            for( var i = 0; i < a.length; i++) {
+                if( i == 0 && a.length > 0) {
+                    hash['title'] = ''
+                }
+
+                if( i > 0 ) {
+                    hash['title'] += a[ i ]
+
+                    if( i == a.length-1 ) {
+
+                    } else {
+                        hash['title'] += " - " 
+                    }
+                }
+            }
+
+            hash['name'] = decodeURI( hash['query']['title'] ).replace( /\+/g, ' ' ).split( " | " )[0]
             hash['name'] = string_titleize( hash['name'] ).substring( 2, 1000 )
 
-            document.getElementById('channel_name').innerHTML = hash['name']
+            document.getElementById( 'channel_name' ).innerHTML = hash[ 'name' ]
 
             hash['html']['video'] =  '<a href="'
             hash['html']['video'] += hash['url']['video']
             hash['html']['video'] += '" target="_self" style="color:grey">'
             hash['html']['video'] += 'Video'//hash['url']['video']
             hash['html']['video'] += '</a>'
-            document.getElementById("video_id").innerHTML = hash['html']['video']
+            document.getElementById( 'video_id' ).innerHTML = hash['html']['video']
 
             hash['html']['channel'] =  '<a href="'
             hash['html']['channel'] += hash['url']['channel']
             hash['html']['channel'] += '" style="color:grey">'
             hash['html']['channel'] += 'Channel' //hash['url']['channel']
             hash['html']['channel'] += '</a>'
-            document.getElementById("channel_id").innerHTML = hash['html']['channel']
+            document.getElementById( 'channel_id' ).innerHTML = hash['html']['channel']
 
             video_insert( hash['url']['embed'] )
             document.title = hash['title']
-            document.getElementById("headline").innerHTML = hash['title']
+            document.getElementById( 'headline' ).innerHTML = hash['title']
+
+            window.addEventListener(
+                'orientationchange', 
+                function() {
+                    rotation = window.orientation
+                    if( rotation == 90 || rotation == -90) {
+                    } else if( rotation == 0 ) {
+                    }
+                }, 
+                false
+            )
+
         </script>
 	</body>
 </html>
