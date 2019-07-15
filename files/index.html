@@ -125,7 +125,6 @@
 
             hash['name'] = decodeURI( hash['query']['title'] ).replace( /\+/g, ' ' ).split( " | " )[0]
             hash['name'] = string_titleize( hash['name'] ).substring( 2, 1000 )
-
             document.getElementById( 'channel_name' ).innerHTML = hash[ 'name' ]
 
             hash['html']['video'] =  '<a href="'
