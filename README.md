@@ -11,7 +11,7 @@ Working Prototyp for Longtime User Testing.
 - A Input is a RSS(XML) or JSON File (only RSS - currently)
 
 
-## Structure
+### Structure
 - Every inputsource is in one category.
 - Every category has one mode (Morning, Evening...)
 - Every category generate a .rss (xml) file
