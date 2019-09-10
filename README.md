@@ -72,23 +72,23 @@ services:
 
 ## Future
 
-| Website        | Media           | Source  |
+| Website        | Media           | Source  | Link |
 | ------------- |:-------------:| -----:|
-| Arxiv      | website | RSS |
-| Craiglist      | website      | RSS |
-| Wikipedia DE | website      | RSS |
-| Wikipedia EN | website      | RSS |
-| Discogs | website      | RSS |
-| Ebay DE | website      | RSS |
-| Epo | website     | RSS |
-| Google Trends | overview      | RSS |
-| Instagram | video      | RSS |
-| Kickstarter | video      | JSON |
-| Medium | website      | RSS |
-| Reddit | website      | RSS |
-| Stackoverflow | website      | RSS |
-| Vimeo | video |  RSS |
-| Thingiverse.com | website      | RSS |
-| Twitch.com | video      | RSS |
+| Arxiv      | website | RSS | [Link](http://arxiv.org/rss/cs.LG) |
+| Craiglist      | website      | RSS | ... |
+| Wikipedia DE | website      | RSS | ... |
+| Wikipedia EN | website      | RSS | ... |
+| Discogs | website      | RSS | ... |
+| Ebay DE | website      | RSS | ... |
+| Epo | website     | RSS | ... |
+| Google Trends | overview      | RSS | ... |
+| Instagram | video      | RSS | ... |
+| Kickstarter | video      | JSON | ... |
+| Medium | website      | RSS | ... |
+| Reddit | website      | RSS | ... |
+| Stackoverflow | website      | RSS | ... |
+| Vimeo | video |  RSS | ... |
+| Thingiverse.com | website      | RSS | ... |
+| Twitch.com | video      | RSS | ... |
 
 
