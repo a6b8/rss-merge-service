@@ -18,6 +18,9 @@ Working Prototyp for longtime User Testing.
 - Every mode generate a .opml (Rss Grouping) file
 
 
+------
+
+
 ### Prototyp
 #### User Interface
 Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
@@ -65,30 +68,9 @@ services:
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png)
 
 
-Video
-- Youtube
-
-Web
-- Google Alert 
 
 
-Checked:
-- Arxiv.org
-- Craiglist.com
-- de.Wikipedia.com
-- Discogs.com
-- Ebay.de
-- en.Wikipedia.com
-- Epo.org
-- Google Trends
-- Instagram
-- Kickstarter
-- Medium.com
-- Reddit.com
-- Stackoverflow.com
-- Thingiverse.com
-- Twitch.com
-
+### Future
 
 | website        | Media           | Cool  |
 | ------------- |:-------------:| -----:|
