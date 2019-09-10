@@ -1,1 +1,1 @@
-# Curlai
+# Curlai - Proof-of-Concept
