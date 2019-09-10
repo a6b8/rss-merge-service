@@ -73,7 +73,7 @@ services:
 ## Future
 
 | Website        | Media           | Source  | Link |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----:| ----- |
 | Arxiv      | website | RSS | [Link](http://arxiv.org/rss/cs.LG) |
 | Craiglist      | website      | RSS | ... |
 | Wikipedia DE | website      | RSS | ... |
