@@ -9,6 +9,8 @@ Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 - Update Subscribtion List by Google Spreadsheet.
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
+![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png)
+
 ```yaml
 version: "3.1"
 services:
