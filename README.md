@@ -25,7 +25,7 @@ Working Prototyp for Longtime User Testing.
 
 ### Prototyp
 #### User Interface
-Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
+> Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
 The Spreadsheet do:
 - Sort Sources by Category 
@@ -33,15 +33,16 @@ The Spreadsheet do:
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 
-Overview
-<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="400">
+**Overview**
+More then 20 Categories in 3 Modes from 596 Sources
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
 
-Detail (Video)
+**Detail (Video)**
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
 
 
-
-**Backend**
+#### Backend
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 - Single Docker Container > Docker-Compose / Secrets Ready!
@@ -67,7 +68,7 @@ services:
       STAGE : ${STAGE}
 ```
 
-![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png)
+
 
 
 
