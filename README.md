@@ -83,7 +83,7 @@ services:
 | Epo | website     | RSS | [Link](https://register.epo.org/rssSearch?query=txt+%3D+k%C3%BCnstliche+and+txt+%3D+intelligenz&lng=de) |
 | Google Trends | overview      | RSS | [Link](https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE) |
 | Instagram | video      | RSS | [Link](https://rsshub.app/instagram/user/nyjah) |
-| Kickstarter | video      | JSON | ... |
+| Kickstarter | video      | JSON | [Link](https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest&format=json&page=2) |
 | Medium | website      | RSS | [Link](https://medium.com/feed/topic/artificial-intelligence) |
 | Reddit | website      | RSS | [Link](https://www.reddit.com/r/Datasets/.rss) |
 | Stackoverflow | website      | RSS | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
