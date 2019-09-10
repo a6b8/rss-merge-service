@@ -1,17 +1,16 @@
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
-## Proof-of-Concept (v.01)
 Working Prototyp for Longtime User Testing.
 
 
-### General Idea
+## General Idea
 - Show Media in the fastest possible way, no clutter and distraction free.
 - Use Open Webstandards for distribution.
 - Generate own index.html for media content to fastest loading and features
 - A Input is a RSS(XML) or JSON File (only RSS - currently)
 
 
-### Structure
+## Structure
 - Every inputsource is in one category.
 - Every category has one mode (Morning, Evening...)
 - Every category generate a .rss (xml) file
@@ -23,8 +22,8 @@ Working Prototyp for Longtime User Testing.
 
 
 
-### Prototyp
-#### User Interface
+## Prototyp
+### User Interface
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
 Tasks:
@@ -39,7 +38,7 @@ More then 20 Categories in 3 Modes from 596 Sources<br>
 **Detail (Video)**<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
-#### Backend
+### Backend
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 - Single Docker Container > Docker-Compose / Secrets Ready!
@@ -70,7 +69,7 @@ services:
 
 
 
-### Future
+## Future
 
 | website        | Media           | Source  |
 | ------------- |:-------------:| -----:|
