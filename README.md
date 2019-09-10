@@ -12,14 +12,14 @@ Working Prototyp for longtime User Testing.
 
 
 ### Structure
-- Every Inputsource gets one Category.
-- Every Category in one Mode (Morning, Evening...)
-- Every Category generate a RSS (XML) File
-- Every Mode generate a OPML (RSS Grouping) File
+- Every inputsource is in one category.
+- Every category has one mode (Morning, Evening...)
+- Every category generate a .rss (xml) file
+- Every mode generate a .opml (Rss Grouping) file
 
 
 ### Prototyp
-**User Interface**
+#### User Interface
 Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
 The Spreadsheet do:
