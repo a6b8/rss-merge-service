@@ -1,2 +1,2 @@
-# rss-merger-docker
+# Curlai - Stream the Web
 # rss-merge-docker
