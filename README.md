@@ -1,4 +1,4 @@
-![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/curlai-logo-grey--50.png)
+![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
 ## Proof-of-Concept
 
