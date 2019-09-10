@@ -33,10 +33,9 @@ The Spreadsheet do:
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 
-**Overview**
-More then 20 Categories in 3 Modes from 596 Sources
+**Overview**<br>
+More then 20 Categories in 3 Modes from 596 Sources<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
-
 **Detail (Video)**
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
