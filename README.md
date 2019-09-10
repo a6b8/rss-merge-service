@@ -1,5 +1,6 @@
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
+Information on Rails.
 Working Prototyp for Longtime User Testing.
 
 
@@ -32,7 +33,7 @@ Tasks:
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 
-**Overview**<br>
+**Overview**<br><br>
 More then 20 Categories in 3 Modes from 596 Sources<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
 **Detail (Video)**<br>
@@ -71,23 +72,23 @@ services:
 
 ## Future
 
-| website        | Media           | Source  |
+| Website        | Media           | Source  |
 | ------------- |:-------------:| -----:|
-| Arxiv      | website | $1600 |
-| Craiglist      | website      |   $12 |
-| Wikipedia DE | website      |    $1 |
-| Wikipedia EN | website      |    $1 |
-| Discogs | website      |    $1 |
-| Ebay DE | website      |    $1 |
-| Epo | website     |    $1 |
-| Google Trends | overview      |    $1 |
-| Instagram | video      |    $1 |
-| Kickstarter | video      |    $1 |
-| Medium | website      |    $1 |
-| Reddit | website      |    $1 |
-| Stackoverflow | website      |    $1 |
-| Vimeo | video | 
-| Thingiverse.com | website      |    $1 |
-| Twitch.com | video      |    $1 |
+| Arxiv      | website | RSS |
+| Craiglist      | website      | RSS |
+| Wikipedia DE | website      | RSS |
+| Wikipedia EN | website      | RSS |
+| Discogs | website      | RSS |
+| Ebay DE | website      | RSS |
+| Epo | website     | RSS |
+| Google Trends | overview      | RSS |
+| Instagram | video      | RSS |
+| Kickstarter | video      | JSON |
+| Medium | website      | RSS |
+| Reddit | website      | RSS |
+| Stackoverflow | website      | RSS |
+| Vimeo | video |  RSS |
+| Thingiverse.com | website      | RSS |
+| Twitch.com | video      | RSS |
 
 
