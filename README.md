@@ -27,7 +27,7 @@ Working Prototyp for Longtime User Testing.
 #### User Interface
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
-The Spreadsheet do:
+Tasks:
 - Sort Sources by Category 
 - Set Names
 - Generate URL with Parameters
@@ -35,11 +35,9 @@ The Spreadsheet do:
 
 **Overview**<br>
 More then 20 Categories in 3 Modes from 596 Sources<br>
-<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
-**Detail (Video)**
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
+**Detail (Video)**<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
-
-
 
 #### Backend
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
