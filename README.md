@@ -5,11 +5,13 @@ Working Prototyp for longtime User Testing.
 
 
 ### General Idea
-- 
 - Show Media in the fastest possible way, no clutter and distraction free.
 - Use Open Webstandards for distribution.
+- A Input is a RSS (XML) File (currently)
 - Every Input has one Category.
 - Every Category in one Mode (Morning, Evening...)
+- Every Category generate a RSS (XML) File
+- Every Mode generate a OPML (RSS Grouping) File
 
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
