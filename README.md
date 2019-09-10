@@ -8,7 +8,8 @@ Working Prototyp for longtime User Testing.
 - Show Media in the fastest possible way, no clutter and distraction free.
 - Use Open Webstandards for distribution.
 - Generate own index.html for media content to fastest loading and features
-- A Input is a RSS (XML) File (currently)
+- A Input is a RSS(XML) or JSON File (only RSS - currently)
+
 
 ### Structure
 - Every Inputsource gets one Category.
@@ -16,10 +17,8 @@ Working Prototyp for longtime User Testing.
 - Every Category generate a RSS (XML) File
 - Every Mode generate a OPML (RSS Grouping) File
 
-Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
-
-### Demo
+### Prototyp
 **User Interface**
 Using Google Spreadsheet for fast iteration cycles:
 - Sort Sources by Category 
@@ -35,6 +34,7 @@ Detail (Video)
 
 
 **Backend**
+Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
