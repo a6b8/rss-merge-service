@@ -17,7 +17,21 @@ Working Prototyp for longtime User Testing.
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 ### Features
-- Update Subscribtion List by Google Spreadsheet.
+
+**User Interface**
+Using Google Spreadsheet for:
+- Discovering Content Creeator ID Number (importxml)
+- Sort Sources by Category 
+- Set Names
+
+
+
+Overview
+
+
+
+**Backend**
+
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
 
