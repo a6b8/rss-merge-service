@@ -20,7 +20,9 @@ Working Prototyp for longtime User Testing.
 
 ### Prototyp
 **User Interface**
-Using Google Spreadsheet for fast iteration cycles:
+Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
+
+The Spreadsheet do:
 - Sort Sources by Category 
 - Set Names
 - Generate URL with Parameters
