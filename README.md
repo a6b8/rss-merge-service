@@ -75,20 +75,20 @@ services:
 | Website        | Media           | Source  | Link |
 | ------------- |:-------------:| -----:| ----- |
 | Arxiv      | website | RSS | [Link](http://arxiv.org/rss/cs.LG) |
-| Craiglist      | website      | RSS | ... |
-| Wikipedia DE | website      | RSS | ... |
-| Wikipedia EN | website      | RSS | ... |
-| Discogs | website      | RSS | ... |
-| Ebay DE | website      | RSS | ... |
-| Epo | website     | RSS | ... |
-| Google Trends | overview      | RSS | ... |
-| Instagram | video      | RSS | ... |
+| Craiglist      | website      | RSS | [Link](https://berlin.craigslist.org/search/jjj?format=rss) |
+| Wikipedia DE | website      | RSS | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
+| Wikipedia EN | website      | RSS | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
+| Discogs | website      | RSS | [Link](https://www.discogs.com/sell/mplistrss?genre=Hip+Hop&q=jay-z&format=Vinyl&output=rss) |
+| Ebay DE | website      | RSS | [Link](https://www.ebay.de/sch/Rap-Hip-Hop/1589/i.html?_from=R40&LH_Auction=1&_nkw=hip+hop+vinyl&_sop=1&_rss=1) |
+| Epo | website     | RSS | [Link](https://register.epo.org/rssSearch?query=txt+%3D+k%C3%BCnstliche+and+txt+%3D+intelligenz&lng=de) |
+| Google Trends | overview      | RSS | [Link](https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE) |
+| Instagram | video      | RSS | [Link](https://rsshub.app/instagram/user/nyjah) |
 | Kickstarter | video      | JSON | ... |
-| Medium | website      | RSS | ... |
-| Reddit | website      | RSS | ... |
-| Stackoverflow | website      | RSS | ... |
+| Medium | website      | RSS | [Link](https://medium.com/feed/topic/artificial-intelligence) |
+| Reddit | website      | RSS | [Link](https://www.reddit.com/r/Datasets/.rss) |
+| Stackoverflow | website      | RSS | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
 | Vimeo | video |  RSS | ... |
-| Thingiverse.com | website      | RSS | ... |
-| Twitch.com | video      | RSS | ... |
+| Thingiverse.com | website      | RSS | [Link](https://www.thingiverse.com/rss/featured) |
+| Twitch.com | video      | RSS | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
 
 
