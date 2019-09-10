@@ -9,6 +9,8 @@ Working Prototyp for longtime User Testing.
 - Use Open Webstandards for distribution.
 - Generate own index.html for media content to fastest loading and features
 - A Input is a RSS (XML) File (currently)
+
+### Structure
 - Every Inputsource gets one Category.
 - Every Category in one Mode (Morning, Evening...)
 - Every Category generate a RSS (XML) File
@@ -16,17 +18,19 @@ Working Prototyp for longtime User Testing.
 
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
-### Features
 
+### Demo
 **User Interface**
-Using Google Spreadsheet for:
-- Discovering Content Creeator ID Number (importxml)
+Using Google Spreadsheet for fast iteration cycles:
 - Sort Sources by Category 
 - Set Names
-
-
+- Generate URL with Parameters
+- Helper: Discovering Content Creator ID Number (importxml)
 
 Overview
+
+Detail (Video)
+
 
 
 
