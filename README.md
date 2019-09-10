@@ -88,3 +88,24 @@ Checked:
 - Stackoverflow.com
 - Thingiverse.com
 - Twitch.com
+
+
+| website        | Media           | Cool  |
+| ------------- |:-------------:| -----:|
+| Arxiv.org      | right-aligned | $1600 |
+| Craiglist.com      | centered      |   $12 |
+| de.Wikipedia.com | are neat      |    $1 |
+| en.Wikipedia.com | are neat      |    $1 |
+| Discogs.com | are neat      |    $1 |
+| Ebay.de | are neat      |    $1 |
+| Epo.org | are neat      |    $1 |
+| Google Trends | are neat      |    $1 |
+| Instagram | are neat      |    $1 |
+| Kickstarter | are neat      |    $1 |
+| Medium.com | are neat      |    $1 |
+| Reddit.com | are neat      |    $1 |
+| Stackoverflow.com | are neat      |    $1 |
+| Thingiverse.com | are neat      |    $1 |
+| Twitch.com | are neat      |    $1 |
+
+
