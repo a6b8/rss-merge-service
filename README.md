@@ -29,8 +29,7 @@ The Spreadsheet do:
 - Helper: Discovering Content Creator ID Number (importxml)
 
 Overview
-![Overview](https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png){ width=50% }
-<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="400">
 
 Detail (Video)
 
