@@ -1,7 +1,7 @@
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
 ## Proof-of-Concept (v.01)
-Working Prototyp for longtime User Testing.
+Working Prototyp for Longtime User Testing.
 
 
 ### General Idea
@@ -18,7 +18,9 @@ Working Prototyp for longtime User Testing.
 - Every mode generate a .opml (Rss Grouping) file
 
 
+
 ------
+
 
 
 ### Prototyp
@@ -72,22 +74,23 @@ services:
 
 ### Future
 
-| website        | Media           | Cool  |
+| website        | Media           | Source  |
 | ------------- |:-------------:| -----:|
-| Arxiv.org      | right-aligned | $1600 |
-| Craiglist.com      | centered      |   $12 |
-| de.Wikipedia.com | are neat      |    $1 |
-| en.Wikipedia.com | are neat      |    $1 |
-| Discogs.com | are neat      |    $1 |
-| Ebay.de | are neat      |    $1 |
-| Epo.org | are neat      |    $1 |
-| Google Trends | are neat      |    $1 |
-| Instagram | are neat      |    $1 |
-| Kickstarter | are neat      |    $1 |
-| Medium.com | are neat      |    $1 |
-| Reddit.com | are neat      |    $1 |
-| Stackoverflow.com | are neat      |    $1 |
-| Thingiverse.com | are neat      |    $1 |
-| Twitch.com | are neat      |    $1 |
+| Arxiv      | website | $1600 |
+| Craiglist      | website      |   $12 |
+| Wikipedia DE | website      |    $1 |
+| Wikipedia EN | website      |    $1 |
+| Discogs | website      |    $1 |
+| Ebay DE | website      |    $1 |
+| Epo | website     |    $1 |
+| Google Trends | overview      |    $1 |
+| Instagram | video      |    $1 |
+| Kickstarter | video      |    $1 |
+| Medium | website      |    $1 |
+| Reddit | website      |    $1 |
+| Stackoverflow | website      |    $1 |
+| Vimeo | video | 
+| Thingiverse.com | website      |    $1 |
+| Twitch.com | video      |    $1 |
 
 
