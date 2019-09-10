@@ -1,8 +1,16 @@
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
 ## Proof-of-Concept (v.01)
+Working Prototyp for longtime User Testing.
 
-Working Prototyp for longtime user testing.
+
+### General Idea
+- 
+- Show Media in the fastest possible way, no clutter and distraction free.
+- Use Open Webstandards for distribution.
+- Every Input has one Category.
+- Every Category in one Mode (Morning, Evening...)
+
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 ### Features
