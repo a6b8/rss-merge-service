@@ -26,7 +26,6 @@ end
 
 
 def helper_youtube_opml_to_tsv( obj, debug )
-
   file = File.open( obj[:path][:from] )
   content = file.readlines.join("")
 
@@ -54,8 +53,6 @@ def helper_youtube_opml_to_tsv( obj, debug )
   end
 
   str = tsv.join("\t")
-
-
   File.open( obj[:path][:to], 'w') { |file| file.write( str ) }
 end
 
@@ -258,6 +255,7 @@ def ga_entries_merge( feeds, debug )
   return result
 end
 
+
 def ga_entries_hash_to_rss( obj, debug )
   result = ""
   rss = RSS::Maker.make("atom") do |maker|
@@ -281,7 +279,6 @@ def ga_entries_hash_to_rss( obj, debug )
   end
 
   result = rss.to_s.gsub('<link href="', '<link rel="alternate" href="')
-  
   return result
 end
 
@@ -296,8 +293,6 @@ def ga_feed_create( obj, debug )
   obj[:rss][:about] += obj[:s3][:request][:filename]
 
   obj[:s3][:request][:localPathFull] = obj[:meta][:local]
-
-
 
   for i in 0..obj[:rss][:paths].length-1    
     if debug
@@ -386,7 +381,6 @@ def ga_spreadsheet_merge( spreadsheets, debug )
       end
     end
   end
-
 
   for i in 0..cmds.length-1
     if !spreadsheets[0].key? cmds[i][:phrase]
@@ -619,6 +613,7 @@ def ga_slack_start( cmd, debug )
   return true
 end
 
+
 def ga_zip_start( obj, debug )
   item = {
     :path => {
@@ -696,6 +691,7 @@ def ga_zip_start( obj, debug )
   return status
 end
 
+
 def ga_environment_variables()
   params = {
     :data => {
@@ -755,6 +751,7 @@ def ga_environment_variables()
   end
   return params
 end
+
 
 def ga_start( params )
   hash = {
