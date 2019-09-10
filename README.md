@@ -2,14 +2,14 @@
 
 ## Proof-of-Concept (v.01)
 
-Working Prototyp for longtime user test.
+Working Prototyp for longtime user testing.
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 ### Features
 - Update Subscribtion List by Google Spreadsheet.
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
-![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png)
+
 
 ```yaml
 version: "3.1"
@@ -30,6 +30,7 @@ services:
       STAGE : ${STAGE}
 ```
 
+![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png)
 
 
 Video
