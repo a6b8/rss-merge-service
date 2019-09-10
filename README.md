@@ -7,8 +7,9 @@ Working Prototyp for longtime User Testing.
 ### General Idea
 - Show Media in the fastest possible way, no clutter and distraction free.
 - Use Open Webstandards for distribution.
+- Generate own index.html for media content to fastest loading and features
 - A Input is a RSS (XML) File (currently)
-- Every Input has one Category.
+- Every Inputsource gets one Category.
 - Every Category in one Mode (Morning, Evening...)
 - Every Category generate a RSS (XML) File
 - Every Mode generate a OPML (RSS Grouping) File
