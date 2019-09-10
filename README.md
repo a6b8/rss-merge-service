@@ -9,8 +9,24 @@ Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 - Update Subscribtion List by Google Spreadsheet.
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
-
-
+```yaml
+version: "3.1"
+services:
+  curlai:
+    build: .
+    environment:
+      AWS_REGION : ${AWS_REGION}
+      AWS_ID : ${AWS_ID}
+      AWS_SECRET : ${AWS_SECRET}
+      AWS_BUCKET_NAME : ${AWS_BUCKET_NAME}
+      AWS_VERSION : ${AWS_VERSION}
+      SLACK : ${SLACK}
+      SPREADSHEET : ${SPREADSHEET}
+      CRON_GENERATE : ${CRON_GENERATE}
+      CRON_STATUS : ${CRON_STATUS}
+      DEBUG : ${DEBUG}
+      STAGE : ${STAGE}
+```
 
 
 
