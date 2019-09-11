@@ -83,8 +83,8 @@ Every Source merges into the same hadline structure. This makes content mixable,
 
 - Structure example
 
-⋅⋅⋅ ▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
-⋅⋅⋅ Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
+⋅⋅⋅▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+⋅⋅⋅Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
