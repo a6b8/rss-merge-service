@@ -24,7 +24,7 @@ Working Prototyp for Longtime User Testing.
 
 
 ## Prototyp (Test Environment)
-### User Interface
+### Dashboard
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
 Tasks:
@@ -38,6 +38,11 @@ More then 20 Categories in 3 Modes from 596 Sources<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
 <b>Detail (Video)</b><br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
+
+### User Interface
+> Every RSS Reader with a Webview is capable to show the content
+We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id576338668?mt=12)
+
 
 ### Backend
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
