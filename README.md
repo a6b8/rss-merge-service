@@ -10,7 +10,7 @@ Information on Rails.
 - A Input is a RSS(XML) or JSON File (only RSS - currently)
 
 
-### Structure
+*Structure:*
 - Every inputsource is in one category.
 - Every category has one mode (Morning, Evening...)
 - Every category generate a .rss (xml) file
@@ -24,7 +24,7 @@ Information on Rails.
 
 ## Prototyp (Test Environment)
 
-**Fokus**
+*Fokus:*
 - Get things running
 - Reclutter Headlines and Text
 - Setup Template Structure
@@ -69,6 +69,8 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 *Headline*:
 ▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+
+
 Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
 
