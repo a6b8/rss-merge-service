@@ -23,7 +23,7 @@ Working Prototyp for Longtime User Testing.
 
 
 
-## Prototyp
+## Prototyp (Test Environment)
 ### User Interface
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
@@ -35,7 +35,7 @@ Tasks:
 <br>
 <b>Overview</b><br>
 More then 20 Categories in 3 Modes from 596 Sources<br>
-<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br><br>
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
 <b>Detail (Video)</b><br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
