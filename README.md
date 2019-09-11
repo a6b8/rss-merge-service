@@ -2,6 +2,14 @@
 
 Information on Rails.
 
+# Table of Contents
+1. [General](#general)
+2. [Prototype](#prototype)
+2.1. [Dashboard](#dashboard)
+2.2. [User Interface](#user-interface)
+2.3. [Backend](#backend)
+
+
 
 ## General
 
