@@ -105,22 +105,37 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 *Environment Variables:*
 
+Store rss, opml and templates to
 ```yaml
-- AWS_REGION 
-- AWS_ID
-- AWS_SECRET
-- AWS_BUCKET_NAME
-- AWS_VERSION
+      AWS_REGION : ${AWS_REGION}
+      AWS_ID : ${AWS_ID}
+      AWS_SECRET : ${AWS_SECRET}
+      AWS_BUCKET_NAME : ${AWS_BUCKET_NAME}
+      AWS_VERSION : ${AWS_VERSION}
 ```
 
+Send Status Logs to Slack Channel
+```yaml
+      SLACK : ${SLACK}
+      CRON_STATUS : ${CRON_STATUS}
+```
 
-- SLACK
-- SPREADSHEET
-- CRON_GENERATE
-- CRON_STATUS
-- DEBUG
-- STAGE
+Link to Spreadsheet. First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
+```yaml
+      SPREADSHEET : ${SPREADSHEET}
+```
 
+Sets the schedule times. (we use 4 times a day)
+```yaml
+      CRON_GENERATE : ${CRON_GENERATE}
+
+```
+
+Helps to debug runtime problems.
+```yaml
+      DEBUG : ${DEBUG}
+      STAGE : ${STAGE}
+```
 
 **Local**
 ```yaml
