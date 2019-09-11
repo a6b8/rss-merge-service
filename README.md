@@ -56,17 +56,18 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 **Headline Structure**
 
-Example:
-▫️ KIPTOE | Painting A Mural 25 Meters Up! - #kiptoepaintstheworld
+*Headline*:
+▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+Symbol CHANNEL NAME | Content Name
 
-Symbol:
+Symbol (shows Template, in this case video)
 ▫️
 
-Channel Name - Always in Capital Letters
-KIPTOE
+Channel Name (always in capital Letters)
+LEX FRIDMAN
 
-Name is Titleized & no Emojis! 
-Painting A Mural 25 Meters Up! - #kiptoepaintstheworld
+Name (titleized & no Emojis!) 
+Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
