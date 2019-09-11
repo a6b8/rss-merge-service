@@ -98,16 +98,31 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 ### Backend
 > All processes run (currently) in one docker container. As container distrubution we use [Rancher 1.6](https://rancher.com)
 
-Features:
+*Features:*
 - All Environment Variables are docker secrets ready!
 - Generating Files is controlled and scheduled over a cron
 - Console Log is controllable over environment variables
 
+*Environment Variables:*
+
+```yaml
+- AWS_REGION 
+- AWS_ID
+- AWS_SECRET
+- AWS_BUCKET_NAME
+- AWS_VERSION
+```
 
 
-Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
+- SLACK
+- SPREADSHEET
+- CRON_GENERATE
+- CRON_STATUS
+- DEBUG
+- STAGE
 
-**Development**
+
+**Local**
 ```yaml
 version: "2"
 services:
@@ -128,7 +143,7 @@ services:
 ```
 
 
-**Production (with Docker Secrets)**
+**With Docker Secrets **
 ```yaml
 version: '2'
 services:
@@ -182,6 +197,10 @@ secrets:
   curlai--cron-status:
     external: 'true'
 ```
+
+*Docker Hub:* 
+- https://hub.docker.com/r/a6b8/rss-merger
+
 
 
 ## Future
