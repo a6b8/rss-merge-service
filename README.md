@@ -35,20 +35,22 @@ Information on Rails.
 ### Dashboard
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
-Tasks:
+*Tasks:*
 - Sort Sources by Category 
 - Set Names
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 <br>
 
-Overview
-- 1200 Sources
-- 22 Categories
-- 3 Modes
+*Overview:*
+- 1200 Sources (Videos, Websites)
+- 22 Categories (Art, Programming...)
+- 3 Modes (Morning, Evening...)
 
-<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
-<b>Detail (Video)</b><br>
+<img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
+
+
+*Detail:*
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
 ### User Interface
