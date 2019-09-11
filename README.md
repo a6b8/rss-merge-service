@@ -50,12 +50,16 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 
 ### Backend
-> For Container Distrubution we use [Rancher 1.6](https://rancher.com)
+> All processes run (currently) in one docker container. As container distrubution we use [Rancher 1.6](https://rancher.com)
+
+Features:
+- All Environment Variables are docker secrets ready!
+- Generating Files is controlled and scheduled over a cron
+- Console Log is controllable over environment variables
+
+
 
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
-
-- Single Docker Container > Docker-Compose / Secrets Ready!
-
 
 **Development**
 ```yaml
@@ -76,6 +80,7 @@ services:
       DEBUG : ${DEBUG}
       STAGE : ${STAGE}
 ```
+
 
 **Production (with Docker Secrets)**
 ```yaml
