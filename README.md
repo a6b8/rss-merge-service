@@ -8,6 +8,7 @@ Information on Rails.
 - [Prototype](#prototype)
   - [Dashboard](#dashboard)
   - [User Interface](#user-interface)
+  - [Browser Extension](#browser-extension)
   - [Backend](#backend)
 - [Future](#future)
 
@@ -94,6 +95,9 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
+
+### Browser Extension
+
 
 ### Backend
 > All processes run (currently) in one docker container. As container distrubution we use [Rancher 1.6](https://rancher.com)
