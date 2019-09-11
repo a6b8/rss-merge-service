@@ -28,6 +28,7 @@ Information on Rails.
 - Generate a Datasets for diffrent user purposes
 - Working Prototyp for Longtime User Testing.
 
+
 ### Dashboard
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
@@ -49,12 +50,14 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 
 ### Backend
+> For Container Distrubution we use [Rancher 1.6](https://rancher.com)
+
 Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
 
-**Docker-Compose**
+**Development**
 ```yaml
 version: "2"
 services:
@@ -74,7 +77,7 @@ services:
       STAGE : ${STAGE}
 ```
 
-**Docker-Compose with Secrets**
+**Production (with Docker Secrets)**
 ```yaml
 version: '2'
 services:
