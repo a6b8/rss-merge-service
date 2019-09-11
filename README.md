@@ -81,13 +81,10 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 Every Source merges into the same hadline structure. This makes content mixable, an easier to read.
 
 
-- Example
+- Structure example
 
-...▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
-
-- Structure V01:*
-
-...Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
+⋅⋅⋅ ▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+⋅⋅⋅ Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
