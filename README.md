@@ -33,10 +33,10 @@ Tasks:
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 <br>
-**Overview**<br>
+<b>Overview</b><br>
 More then 20 Categories in 3 Modes from 596 Sources<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br><br>
-**Detail (Video)**<br>
+<b>Detail (Video)</b><br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
 ### Backend
