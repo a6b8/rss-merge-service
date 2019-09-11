@@ -1,7 +1,6 @@
 ![alt text](https://github.com/a6b8/rss-merge-docker/blob/master/images/curlai-logo-black--50.png)
 
 Information on Rails.
-Working Prototyp for Longtime User Testing.
 
 
 ## General Idea
@@ -24,6 +23,8 @@ Working Prototyp for Longtime User Testing.
 
 
 ## Prototyp (Test Environment)
+> Working Prototyp for Longtime User Testing.
+
 ### Dashboard
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
 
