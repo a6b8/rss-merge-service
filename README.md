@@ -4,12 +4,12 @@ Information on Rails.
 
 *Table of Contents*
 
-1.0. [General](#general)
-2.0. [Prototype](#prototype)
-2.1. [Dashboard](#dashboard)
-2.2. [User Interface](#user-interface)
-2.3. [Backend](#backend)
-3.0. [Future](#future)
+- [General](#general)
+- [Prototype](#prototype)
+- [Dashboard](#dashboard)
+- [User Interface](#user-interface)
+- [Backend](#backend)
+- [Future](#future)
 
 
 ## General
