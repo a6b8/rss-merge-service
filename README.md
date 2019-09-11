@@ -76,14 +76,15 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 - Over 600 Inputsources get imported over 2 .opml files. 
 - The headline from every inputsources has the same structure
 
-*Headline*
+*Headlines:*
 
-Every Source merges into the same hadline structure. This makes content mixable, an easier to read.
+- Every Source merges into the same hadline structure. This makes content mixable, an easier to read.
 
 
 - Structure example
 
 ⋅⋅⋅▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+
 ⋅⋅⋅Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
 
