@@ -23,7 +23,10 @@ Information on Rails.
 
 
 ## Prototyp (Test Environment)
-> Working Prototyp for Longtime User Testing.
+
+**Fokus**
+- Generate a Datasets for diffrent user purposes
+- Working Prototyp for Longtime User Testing.
 
 ### Dashboard
 > Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
