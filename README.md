@@ -4,15 +4,15 @@ Information on Rails.
 
 *Table of Contents*
 
-- [General](#general)
+- [Overview](#overview)
 - [Prototype](#prototype)
-- [Dashboard](#dashboard)
-- [User Interface](#user-interface)
-- [Backend](#backend)
+-- [Dashboard](#dashboard)
+-- [User Interface](#user-interface)
+-- [Backend](#backend)
 - [Future](#future)
 
 
-## General
+## Overview
 
 *Focus:*
 - Show Media in the fastest possible way, no clutter and distraction free.
