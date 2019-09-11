@@ -42,7 +42,10 @@ Tasks:
 - Helper: Discovering Content Creator ID Number (importxml)
 <br>
 <b>Overview</b><br>
-More then 20 Categories in 3 Modes from 596 Sources<br>
+- 1200 Sources
+- 22 Categories
+- 3 Modes
+
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300"><br>
 <b>Detail (Video)</b><br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
@@ -57,19 +60,9 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 **Headline Structure**
 
-*Headline*:<br>
-▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips<br>
-<br>
-Symbol CHANNEL NAME | Content Name<br>
-<br>
-Symbol (shows Template, in this case video)<br>
-▫️<br>
-<br>
-Channel Name (always in capital Letters)<br>
-LEX FRIDMAN<br>
-<br>
-Name (titleized & no Emojis!) <br>
-Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+*Headline*:
+▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
