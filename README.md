@@ -107,7 +107,7 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 *Environment Variables:*
 
-- AWS S3: Write rss, opml and templates, access to public.
+- Aws S3: Write rss, opml and templates, access to public.
 ```yaml
 AWS_REGION= # -string
 AWS_ID= #-string
@@ -116,30 +116,31 @@ AWS_BUCKET_NAME= # -string
 AWS_VERSION= # -string must end with "/"
 ```
 
-- SLACK CHANNEL: Send Status Logs
+- Slack Channel: Send Status Logs
 ```yaml
 SLACK= # -string
 CRON_STATUS= # -cron string
 ```
 
-- GOOGLE SPREADSHEET: First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
+- Google Spreadsheet: First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
 ```yaml
 SPREADSHEET= # -string
 ```
 
-- CRON: Sets the schedule times.
+- Cron: Sets the schedule times.
 ```yaml
 CRON_GENERATE= # -cron string
 
 ```
 
-- CONSOLE LOGS: Enable Logs.
+- Console Logs: Enable Logs.
 ```yaml
 DEBUG= # -boolean
 STAGE= # -string production or development
 ```
 
-**Local**
+
+*Local:*
 ```yaml
 version: "2"
 services:
@@ -160,7 +161,7 @@ services:
 ```
 
 
-**With Docker Secrets **
+*With Docker Secrets:*
 ```yaml
 version: '2'
 services:
