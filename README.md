@@ -79,14 +79,18 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 *Headlines:*
 
-- Every Source merges into the same hadline structure. This makes content mixable, an easier to read.
+- Every Source merges into the same headline structure. 
+- Content gets mixable, and easier to read.
 
 
-- Structure example
+*Example:*
 
-   ▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
+▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
 
-   Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
+1. Content-Symbol 
+2. CHANNEL_NAME 
+3. Split " | " 
+4. Titleized-Content-Name-Without-Emojis
 
 
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
