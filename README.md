@@ -51,9 +51,9 @@ Docker-Hub Repo: https://hub.docker.com/r/a6b8/rss-merger
 - Single Docker Container > Docker-Compose / Secrets Ready!
 
 
-
+**Docker-Compose**
 ```yaml
-version: "3.1"
+version: "2"
 services:
   curlai:
     build: .
@@ -71,9 +71,60 @@ services:
       STAGE : ${STAGE}
 ```
 
-
-
-
+**Docker-Compose with Secrets**
+```yaml
+version: '2'
+services:
+  rss-merger-rss-13plus-com:
+    image: a6b8/rss-merger:v8
+    environment:
+      AWS_BUCKET_NAME_FILE: /run/secrets/curlai--aws-bucket-name
+      AWS_ID_FILE: /run/secrets/curlai--aws-id
+      AWS_REGION_FILE: /run/secrets/curlai--aws-region
+      AWS_SECRET_FILE: /run/secrets/curlai--aws-secret
+      AWS_VERSION_FILE: /run/secrets/curlai--aws-version
+      CRON_GENERATE_FILE: /run/secrets/curlai--cron-generate
+      CRON_STATUS_FILE: /run/secrets/curlai--cron-status
+      DEBUG_FILE: /run/secrets/curlai--debug
+      SLACK_FILE: /run/secrets/curlai--slack
+      SPREADSHEET_FILE: /run/secrets/curlai--spreadsheet
+      STAGE_FILE: /run/secrets/curlai--stage
+    secrets:
+    - curlai--aws-region
+    - curlai--aws-id
+    - curlai--aws-secret
+    - curlai--aws-bucket-name
+    - curlai--aws-version
+    - curlai--slack
+    - curlai--spreadsheet
+    - curlai--cron-generate
+    - curlai--cron-status
+    - curlai--debug
+    - curlai--stage
+secrets:
+  curlai--aws-version:
+    external: 'true'
+  curlai--stage:
+    external: 'true'
+  curlai--cron-generate:
+    external: 'true'
+  curlai--aws-id:
+    external: 'true'
+  curlai--spreadsheet:
+    external: 'true'
+  curlai--debug:
+    external: 'true'
+  curlai--aws-bucket-name:
+    external: 'true'
+  curlai--aws-secret:
+    external: 'true'
+  curlai--slack:
+    external: 'true'
+  curlai--aws-region:
+    external: 'true'
+  curlai--cron-status:
+    external: 'true'
+```
 
 
 ## Future
