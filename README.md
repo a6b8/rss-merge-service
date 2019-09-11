@@ -51,6 +51,8 @@ Information on Rails.
 
 
 *Detail:*
+
+
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
 ### User Interface
