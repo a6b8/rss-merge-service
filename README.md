@@ -41,7 +41,8 @@ Tasks:
 - Generate URL with Parameters
 - Helper: Discovering Content Creator ID Number (importxml)
 <br>
-<b>Overview</b><br>
+
+Overview
 - 1200 Sources
 - 22 Categories
 - 3 Modes
