@@ -122,6 +122,10 @@ SLACK= # -string
 CRON_STATUS= # -cron string
 ```
 
+<img src="https://github.com/a6b8/curlai/blob/master/images/slack.png" alt="alt text" height="300">
+
+
+
 - Google Spreadsheet: First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
 ```yaml
 SPREADSHEET= # -string
