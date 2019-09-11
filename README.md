@@ -47,8 +47,28 @@ More then 20 Categories in 3 Modes from 596 Sources<br>
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
 
 ### User Interface
-> Every RSS Reader with a Webview is capable to show the content
+> Every RSS Reader with Webview & Opml Import is capable to show the content.
 We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id576338668?mt=12)
+
+
+- Over 600 Inputsources get imported over 2 .opml files. 
+- The headline from every inputsources has the same structure
+
+**Headline Structure**
+
+Example:
+▫️ KIPTOE | Painting A Mural 25 Meters Up! - #kiptoepaintstheworld
+
+Symbol:
+▫️
+
+Channel Name - Always in Capital Letters
+KIPTOE
+
+Name is Titleized & no Emojis! 
+Painting A Mural 25 Meters Up! - #kiptoepaintstheworld
+
+
 <img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
 
 ### Backend
