@@ -6,9 +6,9 @@ Information on Rails.
 
 - [Overview](#overview)
 - [Prototype](#prototype)
--- [Dashboard](#dashboard)
--- [User Interface](#user-interface)
--- [Backend](#backend)
+- - [Dashboard](#dashboard)
+- - [User Interface](#user-interface)
+- - [Backend](#backend)
 - [Future](#future)
 
 
