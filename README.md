@@ -233,21 +233,21 @@ secrets:
 
 | Website        | Media           | Source  | Link |
 | ------------- |:-------------:|:-----:|:-----:|
-| Arxiv      | website | RSS | [Link](http://arxiv.org/rss/cs.LG) |
-| Craiglist      | website      | RSS | [Link](https://berlin.craigslist.org/search/jjj?format=rss) |
-| Wikipedia DE | website      | RSS | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
-| Wikipedia EN | website      | RSS | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
-| Discogs | website      | RSS | [Link](https://www.discogs.com/sell/mplistrss?genre=Hip+Hop&q=jay-z&format=Vinyl&output=rss) |
-| Ebay DE | website      | RSS | [Link](https://www.ebay.de/sch/Rap-Hip-Hop/1589/i.html?_from=R40&LH_Auction=1&_nkw=hip+hop+vinyl&_sop=1&_rss=1) |
-| Epo | website     | RSS | [Link](https://register.epo.org/rssSearch?query=txt+%3D+k%C3%BCnstliche+and+txt+%3D+intelligenz&lng=de) |
-| Google Trends | overview      | RSS | [Link](https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE) |
-| Instagram | video      | RSS | [Link](https://rsshub.app/instagram/user/nyjah) |
-| Kickstarter | video      | JSON | [Link](https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest&format=json&page=2) |
-| Medium | website      | RSS | [Link](https://medium.com/feed/topic/artificial-intelligence) |
-| Reddit | website      | RSS | [Link](https://www.reddit.com/r/Datasets/.rss) |
-| Stackoverflow | website      | RSS | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
-| Vimeo | video |  RSS | ... |
-| Thingiverse.com | website      | RSS | [Link](https://www.thingiverse.com/rss/featured) |
-| Twitch.com | video      | RSS | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
+| Arxiv      | Website | xml | [Link](http://arxiv.org/rss/cs.LG) |
+| Craiglist      | Website      | xml | [Link](https://berlin.craigslist.org/search/jjj?format=rss) |
+| Wikipedia DE | Website      | xml | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
+| Wikipedia EN | Website      | xml | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
+| Discogs | Website      | xml | [Link](https://www.discogs.com/sell/mplistrss?genre=Hip+Hop&q=jay-z&format=Vinyl&output=rss) |
+| Ebay DE | Website      | xml | [Link](https://www.ebay.de/sch/Rap-Hip-Hop/1589/i.html?_from=R40&LH_Auction=1&_nkw=hip+hop+vinyl&_sop=1&_rss=1) |
+| Epo | Website     | xml | [Link](https://register.epo.org/rssSearch?query=txt+%3D+k%C3%BCnstliche+and+txt+%3D+intelligenz&lng=de) |
+| Google Trends | overview      | xml | [Link](https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE) |
+| Instagram | video      | xml | [Link](https://rsshub.app/instagram/user/nyjah) |
+| Kickstarter | video      | json | [Link](https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest&format=json&page=2) |
+| Medium | Website      | xml | [Link](https://medium.com/feed/topic/artificial-intelligence) |
+| Reddit | Website      | xml | [Link](https://www.reddit.com/r/Datasets/.rss) |
+| Stackoverflow | Website      | xml | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
+| Vimeo | video |  xml | ... |
+| Thingiverse.com | Website      | xml | [Link](https://www.thingiverse.com/rss/featured) |
+| Twitch.com | video      | xml | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
 
 
