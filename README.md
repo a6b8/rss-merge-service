@@ -3,7 +3,7 @@
 Information on Rails.
 
 
-## General Idea
+## General
 
 *Focus:*
 - Show Media in the fastest possible way, no clutter and distraction free.
