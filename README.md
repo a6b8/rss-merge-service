@@ -33,8 +33,8 @@ Information on Rails.
 
 
 
-## Prototyp (Test Environment)
-Getting things running
+## Prototyp (Version Ashby)
+Getting things running. 
 
 *Focus:*
 - [x] Reclutter Headlines and Text
@@ -44,7 +44,7 @@ Getting things running
 
 
 ### Dashboard
-> Using a Google Spreadsheet as Interface. For Transmitting the Spreadsheet is set public and readable as json.:
+> Using a Google Spreadsheet as Interface. The Spreadsheet is set to public and consumable in json format.:
 
 *Tasks:*
 - Sort Sources by Category 
@@ -76,11 +76,15 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 - Over 600 Inputsources get imported over 2 .opml files. 
 - The headline from every inputsources has the same structure
 
-**Headline Structure**
+**Headline**
+Every Source merges into the same hadline structure. This makes content mixable, an easier to read.
 
-*Headline*:
+
+*Example:*:
+
 ▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
 
+*Structure V01:*
 
 Content-Symbol CHANNEL_NAME | Titleized-Content-Name-Without-Emojis
 
