@@ -73,8 +73,9 @@ Getting things running.
 We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id576338668?mt=12)
 
 
-- Over 600 Inputsources get imported over 2 .opml files. 
+- With 2 .opml files the Reader imports more then 20 Categories.
 - The headline from every inputsources has the same structure
+- Default View is set to Webview.
 
 *Headlines:*
 
