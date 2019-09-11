@@ -57,17 +57,18 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 
 **Headline Structure**
 
-*Headline*:
-▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
-Symbol CHANNEL NAME | Content Name
-
-Symbol (shows Template, in this case video)
-▫️
-
-Channel Name (always in capital Letters)
-LEX FRIDMAN
-
-Name (titleized & no Emojis!) 
+*Headline*:<br>
+▫️ LEX FRIDMAN | Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips<br>
+<br>
+Symbol CHANNEL NAME | Content Name<br>
+<br>
+Symbol (shows Template, in this case video)<br>
+▫️<br>
+<br>
+Channel Name (always in capital Letters)<br>
+LEX FRIDMAN<br>
+<br>
+Name (titleized & no Emojis!) <br>
 Most Research In Deep Learning Is A Total Waste Of Time - Jeremy Howard | Ai Podcast Clips
 
 
