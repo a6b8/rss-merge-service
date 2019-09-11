@@ -25,6 +25,8 @@ Information on Rails.
 ## Prototyp (Test Environment)
 
 **Fokus**
+- Get things running
+- Reclutter Headlines and Text
 - Generate a Datasets for diffrent user purposes
 - Working Prototyp for Longtime User Testing.
 
