@@ -2,10 +2,11 @@
 
 Information on Rails.
 
-# Table of Contents
-1. [General](#general)
+*Table of Contents*
 
-2. [Prototype](#prototype)
+1.0. [General](#general)
+
+2.0. [Prototype](#prototype)
 
 2.1. [Dashboard](#dashboard)
 
@@ -13,7 +14,7 @@ Information on Rails.
 
 2.3. [Backend](#backend)
 
-
+3.0. [Future](#future)
 
 
 ## General
