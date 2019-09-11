@@ -4,6 +4,8 @@ Information on Rails.
 
 
 ## General Idea
+
+*Focus:*
 - Show Media in the fastest possible way, no clutter and distraction free.
 - Use Open Webstandards for distribution.
 - Generate own index.html for media content to fastest loading and features
@@ -24,7 +26,7 @@ Information on Rails.
 
 ## Prototyp (Test Environment)
 
-*Fokus:*
+*Focus:*
 - Get things running
 - Reclutter Headlines and Text
 - Setup Template Structure
