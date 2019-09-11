@@ -47,7 +47,7 @@ More then 20 Categories in 3 Modes from 596 Sources<br>
 ### User Interface
 > Every RSS Reader with a Webview is capable to show the content
 We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id576338668?mt=12)
-
+<img src="https://github.com/a6b8/curlai/blob/master/images/reader.png" alt="alt text" height="300">
 
 ### Backend
 > All processes run (currently) in one docker container. As container distrubution we use [Rancher 1.6](https://rancher.com)
