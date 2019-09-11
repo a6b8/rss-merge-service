@@ -36,11 +36,11 @@ Information on Rails.
 ## Prototyp (Test Environment)
 
 *Focus:*
-- Get things running
-- Reclutter Headlines and Text
-- Setup Template Structure
-- Generate a Datasets for diffrent user purposes
-- Longtime User Testing.
+[x] Get things running
+[x] Reclutter Headlines and Text
+[x] Setup Template Structure
+[x] Generate a Datasets for diffrent user purposes
+[x] Longtime User Testing.
 
 
 ### Dashboard
