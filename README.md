@@ -27,8 +27,9 @@ Information on Rails.
 **Fokus**
 - Get things running
 - Reclutter Headlines and Text
+- Setup Template Structure
 - Generate a Datasets for diffrent user purposes
-- Working Prototyp for Longtime User Testing.
+- Longtime User Testing.
 
 
 ### Dashboard
