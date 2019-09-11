@@ -98,14 +98,16 @@ We use [Leaf for Mac](https://apps.apple.com/us/app/leaf-rss-news-reader/id57633
 ### Backend
 > All processes run (currently) in one docker container. As container distrubution we use [Rancher 1.6](https://rancher.com)
 
+
 *Features:*
 - All Environment Variables are docker secrets ready!
 - Generating Files is controlled and scheduled over a cron
 - Console Log is controllable over environment variables
 
+
 *Environment Variables:*
 
-Store rss, opml and templates to
+- AWS S3: Write rss, opml and templates, access to public.
 ```yaml
 AWS_REGION= # -string
 AWS_ID= #-string
@@ -114,24 +116,24 @@ AWS_BUCKET_NAME= # -string
 AWS_VERSION= # -string must end with "/"
 ```
 
-Send Status Logs to Slack Channel
+- SLACK CHANNEL: Send Status Logs
 ```yaml
 SLACK= # -string
 CRON_STATUS= # -cron string
 ```
 
-Link to Spreadsheet. First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
+- GOOGLE SPREADSHEET: First Tab needs to be a overview site. next two detail sites. Its configable in `index.rb`
 ```yaml
 SPREADSHEET= # -string
 ```
 
-Sets the schedule times. (we use 4 times a day)
+- CRON: Sets the schedule times.
 ```yaml
 CRON_GENERATE= # -cron string
 
 ```
 
-Helps to debug runtime problems.
+- CONSOLE LOGS: Enable Logs.
 ```yaml
 DEBUG= # -boolean
 STAGE= # -string production or development
