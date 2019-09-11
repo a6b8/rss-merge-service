@@ -39,7 +39,7 @@ Information on Rails.
 - Sort Sources by Category 
 - Set Names
 - Generate URL with Parameters
-- Helper: Discovering Content Creator ID Number (importxml)
+- Discovering Content Creator ID Number for importxml
 <br>
 
 *Overview:*
@@ -50,7 +50,9 @@ Information on Rails.
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/overview.png" alt="alt text" height="300">
 
 
+
 *Detail:*
+- Rearrange category by dropdown
 
 
 <img src="https://github.com/a6b8/rss-merge-docker/blob/master/images/detail.png" alt="alt text" height="300">
