@@ -34,9 +34,9 @@ Information on Rails.
 
 
 ## Prototyp (Test Environment)
+Getting things running
 
 *Focus:*
-- [x] Get things running
 - [x] Reclutter Headlines and Text
 - [x] Setup Template Structure
 - [x] Generate a Datasets for diffrent user purposes
