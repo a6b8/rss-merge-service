@@ -173,7 +173,7 @@ services:
 ```yaml
 version: '2'
 services:
-  rss-merger-rss-13plus-com:
+  curlai:
     image: a6b8/rss-merger:v8
     environment:
       AWS_BUCKET_NAME_FILE: /run/secrets/curlai--aws-bucket-name
