@@ -752,7 +752,7 @@ GEM
       raabro (~> 1.1)
     jmespath (1.4.0)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.3)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     opml-parser (1.0.1)
       nokogiri
