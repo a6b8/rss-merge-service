@@ -249,5 +249,5 @@ secrets:
 | Vimeo | video |  xml | ... |
 | Thingiverse.com | Website      | xml | [Link](https://www.thingiverse.com/rss/featured) |
 | Twitch.com | video      | xml | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
-
+| Yahoo.com | Website      | xml | [Link](https://news.yahoo.com/rss/3d+printing) |
 
