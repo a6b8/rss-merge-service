@@ -235,8 +235,6 @@ secrets:
 | ------------- |:-------------:|:-----:|:-----:|
 | Arxiv      | Website | xml | [Link](http://arxiv.org/rss/cs.LG) |
 | Craiglist      | Website      | xml | [Link](https://berlin.craigslist.org/search/jjj?format=rss) |
-| Wikipedia DE | Website      | xml | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
-| Wikipedia EN | Website      | xml | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
 | Discogs | Website      | xml | [Link](https://www.discogs.com/sell/mplistrss?genre=Hip+Hop&q=jay-z&format=Vinyl&output=rss) |
 | Ebay DE | Website      | xml | [Link](https://www.ebay.de/sch/Rap-Hip-Hop/1589/i.html?_from=R40&LH_Auction=1&_nkw=hip+hop+vinyl&_sop=1&_rss=1) |
 | Epo | Website     | xml | [Link](https://register.epo.org/rssSearch?query=txt+%3D+k%C3%BCnstliche+and+txt+%3D+intelligenz&lng=de) |
@@ -246,8 +244,9 @@ secrets:
 | Medium | Website      | xml | [Link](https://medium.com/feed/topic/artificial-intelligence) |
 | Reddit | Website      | xml | [Link](https://www.reddit.com/r/Datasets/.rss) |
 | Stackoverflow | Website      | xml | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
-| Vimeo | video |  xml | ... |
 | Thingiverse.com | Website      | xml | [Link](https://www.thingiverse.com/rss/featured) |
 | Twitch.com | video      | xml | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
+| Vimeo | video |  xml | ... |
 | Yahoo.com | Website      | xml | [Link](https://news.yahoo.com/rss/3d+printing) |
-
+| Wikipedia DE | Website      | xml | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
+| Wikipedia EN | Website      | xml | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
