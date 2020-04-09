@@ -246,7 +246,7 @@ secrets:
 | Stackoverflow | Website      | xml | [Link](https://stackoverflow.com/feeds/tag?tagnames=three.js&sort=newest) |
 | Thingiverse.com | Website      | xml | [Link](https://www.thingiverse.com/rss/featured) |
 | Twitch.com | video      | xml | [Link](http://twitchrss.appspot.com/vod/ryukahr) |
-| Vimeo | video |  xml | ... |
+| Vimeo | video |  xml | [Link](https://vimeo.com/netzpolitik/videos/rss) |
 | Yahoo.com | Website      | xml | [Link](https://news.yahoo.com/rss/3d+printing) |
 | Wikipedia DE | Website      | xml | [Link](https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom) |
 | Wikipedia EN | Website      | xml | [Link](https://tools.wmflabs.org/ifttt-testing/ifttt/v1/triggers/article_of_the_day?lang=en) |
